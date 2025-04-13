@@ -1,1 +1,0 @@
-# FVG-Trading-Strategy-Bot
