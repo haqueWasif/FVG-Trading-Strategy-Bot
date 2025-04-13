@@ -20,8 +20,8 @@ A Python-based trading bot that identifies Fair Value Gaps (FVGs) in financial m
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/fvg-trading-bot.git
-   cd fvg-trading-bot
+   git clone https://github.com/haqueWasif/FVG-Trading-Strategy-Bot.git
+   cd FVG-Trading-Strategy-Bot
    ```
 
 2. **Set Up a Virtual Environment** (recommended):
@@ -88,7 +88,7 @@ fvg-trading-bot/
    ```bash
    python -m src.main
    ```
-   - Run from the project root (`fvg-trading-bot/`) to ensure the `src` package is found.
+   - Run from the project root (`FVG-Trading-Strategy-Bot/`) to ensure the `src` package is found.
    - The bot initializes MT5, fetches data, detects FVGs, and generates signals.
    - A plot window opens, showing candlestick charts with FVG zones for M1, M5, M15, and H1 timeframes.
    - Use the slider to navigate historical candles.
@@ -137,7 +137,7 @@ pip install -r requirements.txt
 
 ## Troubleshooting
 - **ModuleNotFoundError: No module named 'src'**:
-  - Ensure you’re running `python -m src.main` from the project root (`fvg-trading-bot/`).
+  - Ensure you’re running `python -m src.main` from the project root (`FVG-Trading-Strategy-Bot/`).
   - Verify `__init__.py` files exist in `src/`, `src/analysis/`, `src/plotting/`, `src/utils/`, and `config/`.
   - Check that `src/utils/mt5_utils.py` and `src/utils/telegram_utils.py` exist.
 - **ImportError: cannot import name 'MT5_LOGIN' from 'config'**:
