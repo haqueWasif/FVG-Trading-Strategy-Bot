@@ -11,7 +11,7 @@ A Python-based trading bot that identifies Fair Value Gaps (FVGs) in financial m
 - **Secure Configuration**: Stores sensitive credentials (MT5 login, Telegram token) in environment variables.
 
 ## Prerequisites
-- **Python 3.8+**
+- **Python 3.10**
 - **MetaTrader 5** installed with a valid account (demo or live).
 - **Telegram Bot**: A bot token and chat ID for notifications.
 - **Git** (optional, for cloning the repository).
