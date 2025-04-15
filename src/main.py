@@ -8,7 +8,6 @@ from src.analysis.fvg_analysis import detect_fvg, generate_signal  # CHANGED
 from src.plotting.plotting import plot_fvg_multi  # CHANGED
 from config.config import SYMBOL, LIMIT, PLOT_TIMEFRAMES, TIMEFRAME_MAP  # CHANGED
 from IPython.display import display
-# ... rest of main.py remains unchanged ...
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
